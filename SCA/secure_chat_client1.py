@@ -375,15 +375,19 @@ class ChatClient:
                     continue
 
                 elif data.startswith(b"CIPH "):
-                    _, sender, recipient, blob_b64 = data.split(b" ", 3)
-                    if recipient.decode() != self.username:
+                    _, sender_b, recipient_b, blob_b64 = data.split(b" ", 3)
+
+                    sender    = sender_b.decode()      # <-- keep as str
+                    recipient = recipient_b.decode()   # <-- keep as str
+                    if recipient != self.username:
                         continue
-                    key = self.peer_keys.get(sender.decode())
-                    # we know 'key' is exactly the right one, so decrypt
-                    pt = decrypt_message(key, base64.b64decode(blob_b64))
+
+                    key = self.peer_keys.get(sender)
+                    pt  = decrypt_message(key, base64.b64decode(blob_b64))
                     if pt is not None:
-                        self._ui(self._display, f"[{sender}] {pt}")
-                        continue 
+                        if isinstance(pt, (bytes, bytearray)):
+                            pt = pt.decode()
+                        self._ui(self._display, f"{sender}: {pt}")
 
                 
 
@@ -725,11 +729,7 @@ class ChatClient:
             + b" " + base64.b64encode(blob)
         self._send_prefixed(frame)
 
-        # private PM
-        blob  = encrypt_message(key, msg)
-        frame = b"CIPH " + self.username.encode() + b" " + target.encode() + b" " + \
-                base64.b64encode(blob)
-        self._send_prefixed(frame)     
+            
 
    
     def _scroll_to_bottom(self):

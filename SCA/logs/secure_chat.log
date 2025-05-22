@@ -3455,3 +3455,223 @@ uthenticated as 'jamal'
 2025-05-22 20:49:59,782 - secure_chat - INFO - [('127.0.0.1', 2246)] authenticated as 'jamal'
 2025-05-22 21:20:08,696 - secure_chat - INFO - Client 'jamal' closing.
 2025-05-22 21:20:08,697 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-22 23:06:40,561 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-22 23:06:45,316 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:06:54,659 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:06:54,659 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-22 23:06:55,725 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-22 23:06:55,725 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-22 23:06:55,726 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-22 23:07:01,643 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:07:10,407 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:07:10,407 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-22 23:07:11,872 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-22 23:07:11,873 - secure_chat - INFO - [('127.0.0.1', 12347)] logged in as 'mubarak'
+2025-05-22 23:07:11,873 - secure_chat - INFO - [('127.0.0.1', 12347)] authenticated as 'mubarak'
+2025-05-22 23:07:11,877 - secure_chat.key_management - INFO - Shared key derived successfully
+2025-05-22 23:07:12,052 - secure_chat.key_management - INFO - Shared key derived successfully
+2025-05-22 23:07:19,924 - secure_chat - INFO - Relaying E2E private message from mubarak to jamal: S4Rx9tuaeFMUaJ3Kn3ZiscQtK6YHbD2wMPoTdOU1
+2025-05-22 23:07:39,812 - secure_chat - INFO - Relaying E2E private message from jamal to mubarak: YX6f2kCM71pXaUaqH9hw3BBWso0KLYu58AseO+LI
+2025-05-22 23:07:44,434 - secure_chat - INFO - Relaying E2E private message from jamal to mubarak: YX6f253Nsohf7uxgLWFK2fAo/FWHpK3wVpFeElyx
+2025-05-22 23:17:19,737 - secure_chat - INFO - Relaying E2E private message from jamal to mubarak: YX6f3BT3LWT8EpNrx2N18PSUOAv3zhPlw1KilBnk
+2025-05-22 23:24:25,169 - secure_chat - INFO - Client 'jamal' closing.
+2025-05-22 23:24:25,170 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-22 23:24:25,977 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-22 23:24:25,978 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-22 23:24:27,080 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-22 23:24:43,479 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-22 23:24:45,789 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:24:53,866 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:24:53,866 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-22 23:24:53,904 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-22 23:25:00,603 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:25:00,603 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-22 23:25:02,176 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-22 23:25:02,177 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-22 23:25:02,177 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-22 23:25:14,347 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:25:23,302 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:25:23,302 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-22 23:25:24,514 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-22 23:25:24,515 - secure_chat - INFO - [('127.0.0.1', 12347)] logged in as 'mubarak'
+2025-05-22 23:25:24,515 - secure_chat - INFO - [('127.0.0.1', 12347)] authenticated as 'mubarak'
+2025-05-22 23:25:24,519 - secure_chat.key_management - INFO - Shared key derived successfully
+2025-05-22 23:25:24,681 - secure_chat.key_management - INFO - Shared key derived successfully
+2025-05-22 23:25:28,258 - secure_chat - INFO - Relaying E2E private message from mubarak to jamal: cNbxH04/gzE/F1kttYhY35byTpmyReS9wTUpbNop
+2025-05-22 23:25:42,333 - secure_chat - INFO - Relaying E2E private message from jamal to mubarak: rPMu8+Z5Ov2q310cjfotZ4c7i6F1+xMcVm8EGqNJ
+2025-05-22 23:28:51,383 - secure_chat - INFO - Client 'jamal' closing.
+2025-05-22 23:28:51,384 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-22 23:28:52,301 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-22 23:28:52,302 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-22 23:29:08,517 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-22 23:29:10,983 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:29:36,925 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:29:36,927 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-22 23:29:38,062 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-22 23:29:38,063 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-22 23:29:38,063 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-22 23:29:42,114 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:29:54,749 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:29:54,749 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-22 23:29:55,838 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-22 23:29:55,838 - secure_chat - INFO - [('127.0.0.1', 12347)] logged in as 'mubarak'
+2025-05-22 23:29:55,838 - secure_chat - INFO - [('127.0.0.1', 12347)] authenticated as 'mubarak'
+2025-05-22 23:29:55,840 - secure_chat.key_management - INFO - Shared key derived successfully
+2025-05-22 23:29:56,012 - secure_chat.key_management - INFO - Shared key derived successfully
+2025-05-22 23:30:07,700 - secure_chat - INFO - Relaying E2E private message from jamal to mubarak: ZKTPeD4g2z2XE/WJsgsena9dGoHVMiPs36OH+DiezA==
+2025-05-22 23:30:58,458 - secure_chat - INFO - Relaying E2E private message from mubarak to jamal: 3dDep5rAjVwAP11iH5m9RMYg/peSzKd4nSg7WFfh
+2025-05-22 23:40:10,529 - secure_chat - INFO - Client 'jamal' closing.
+
+2025-05-22 23:40:10,530 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-22 23:40:10,531 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-22 23:40:17,674 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-22 23:40:20,329 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:40:28,328 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:40:28,329 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-22 23:40:29,579 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-22 23:40:29,580 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-22 23:40:29,580 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-22 23:40:34,166 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:40:42,912 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:40:42,912 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-22 23:40:44,238 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-22 23:40:44,239 - secure_chat - INFO - [('127.0.0.1', 12347)] logged in as 'mubarak'
+2025-05-22 23:40:44,239 - secure_chat - INFO - [('127.0.0.1', 12347)] authenticated as 'mubarak'
+2025-05-22 23:40:44,240 - secure_chat.key_management - INFO - Shared key derived successfully
+2025-05-22 23:40:44,426 - secure_chat.key_management - INFO - Shared key derived successfully
+2025-05-22 23:40:49,362 - secure_chat - INFO - Relaying E2E private message from mubarak to jamal: S+/NIXDkYu2EZ9I5s0lAaedO6tx0O2ZF7scIYR5A
+2025-05-22 23:41:09,329 - secure_chat - INFO - Relaying E2E private message from jamal to mubarak: BYVClF54z6jA6tl6lbQWFItfeTRBj/HDsy5NBBWj
+2025-05-22 23:41:09,330 - secure_chat - WARNING - Connection lost: cannot access local variable 'sender_b' where it is not associated with a value
+2025-05-22 23:41:13,270 - secure_chat - INFO - Reconnect attempt 1 in 1s …
+2025-05-22 23:41:14,271 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:41:14,272 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-22 23:41:14,274 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:41:14,274 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-22 23:41:18,143 - secure_chat - INFO - Client 'jamal' closing.
+2025-05-22 23:41:18,144 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-22 23:41:23,525 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-22 23:41:23,525 - secure_chat - WARNING - reconnect failed: USB locked for 4 minute(s).
+2025-05-22 23:41:23,525 - secure_chat - INFO - Reconnect attempt 2 in 2s …
+2025-05-22 23:41:25,526 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:41:25,528 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:41:25,528 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-22 23:41:26,597 - secure_chat - WARNING - reconnect failed: USB locked for 3 minute(s).
+2025-05-22 23:41:26,597 - secure_chat - INFO - Reconnect attempt 3 in 4s …
+2025-05-22 23:41:26,597 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-22 23:41:30,598 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:41:30,599 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:41:30,600 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-22 23:41:30,639 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-22 23:41:30,641 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-22 23:41:31,760 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-22 23:41:32,678 - secure_chat - WARNING - reconnect failed: [WinError 10038] An operation was attempted on something that is not a socket
+2025-05-22 23:41:32,678 - secure_chat - INFO - Reconnect attempt 4 in 8s …
+2025-05-22 23:41:40,679 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:41:40,681 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:41:40,682 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-22 23:41:40,748 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-22 23:41:40,749 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-22 23:41:40,758 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-22 23:42:13,274 - secure_chat - WARNING - reconnect failed: [WinError 10038] An operation was attempted on something that is not a socket
+2025-05-22 23:42:13,275 - secure_chat - INFO - Reconnect attempt 5 in 16s …
+2025-05-22 23:42:29,275 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:42:29,277 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:42:29,277 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-22 23:42:29,314 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-22 23:42:29,314 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-22 23:42:29,314 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-22 23:42:29,314 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-22 23:42:29,314 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-22 23:42:30,806 - secure_chat - WARNING - reconnect failed: [WinError 10038] An operation was attempted on something that is not a socket
+2025-05-22 23:42:31,702 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-22 23:42:37,536 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-22 23:42:40,226 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:42:46,304 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:42:46,304 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-22 23:42:47,180 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-22 23:42:47,181 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-22 23:42:47,181 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-22 23:42:57,893 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:43:05,339 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:43:05,339 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-22 23:43:05,376 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-22 23:43:16,248 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:43:16,249 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-22 23:43:17,407 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-22 23:43:20,749 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-22 23:43:26,318 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:44:26,830 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:44:26,830 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-22 23:44:28,078 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-22 23:44:30,467 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-22 23:44:35,110 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:44:45,141 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:44:45,141 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-22 23:44:47,887 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-22 23:44:50,483 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-22 23:44:53,312 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:45:01,472 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:45:01,472 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-22 23:45:02,865 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-22 23:45:05,571 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-22 23:45:07,966 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:45:16,762 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:45:16,762 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-22 23:45:18,192 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-22 23:45:20,882 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-22 23:45:23,532 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:45:32,122 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:45:32,122 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-22 23:45:33,354 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-22 23:45:33,354 - secure_chat - INFO - [('127.0.0.1', 12347)] logged in as 'mubarak'
+2025-05-22 23:45:33,354 - secure_chat - INFO - [('127.0.0.1', 12347)] authenticated as 'mubarak'
+2025-05-22 23:45:33,355 - secure_chat.key_management - INFO - Shared key derived successfully
+2025-05-22 23:45:33,525 - secure_chat.key_management - INFO - Shared key derived successfully
+2025-05-22 23:45:45,454 - secure_chat - INFO - Relaying E2E private message from jamal to mubarak: J4acvFwdN1Lhk3fYt72j8oz3wZiRQ1+cfTEPoWm2
+2025-05-22 23:45:48,794 - secure_chat - INFO - Relaying E2E private message from mubarak to jamal: fPOFFzklFHSeUpfd8D/tcpQIRG7AUc0zHS6VCAIkzw==
+2025-05-22 23:45:51,768 - secure_chat - INFO - Relaying E2E private message from mubarak to jamal: fPOFGG0I1EQYONnt1ONl1/6ay4F4EdZNWgSS5w+3//uqxUgomE4RUvcvDva5qSn1P7Q=
+2025-05-22 23:46:49,468 - secure_chat - INFO - Client 'jamal' closing.
+2025-05-22 23:46:49,469 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-22 23:46:52,327 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-22 23:46:52,327 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-22 23:51:23,315 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-22 23:51:25,491 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:51:31,009 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:51:31,009 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-22 23:51:32,713 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-22 23:51:32,714 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-22 23:51:32,714 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-22 23:51:37,466 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:51:47,348 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:51:47,348 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-22 23:51:48,511 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-22 23:51:48,512 - secure_chat - INFO - [('127.0.0.1', 12347)] logged in as 'mubarak'
+2025-05-22 23:51:48,512 - secure_chat - INFO - [('127.0.0.1', 12347)] authenticated as 'mubarak'
+2025-05-22 23:51:48,517 - secure_chat.key_management - INFO - Shared key derived successfully
+2025-05-22 23:51:48,694 - secure_chat.key_management - INFO - Shared key derived successfully
+2025-05-22 23:51:53,694 - secure_chat - INFO - Relaying E2E private message from mubarak to jamal: IRxECXxXumf8PsraBGS92Evd8EK2jyA2NoVyGGYL
+2025-05-22 23:52:05,624 - secure_chat - INFO - Relaying E2E private message from jamal to mubarak: TN+qNymTLgngAIcE1ccYRcPFNCa6VzbGSkGNjHzZ
+2025-05-22 23:52:26,434 - secure_chat - INFO - Relaying E2E private message from jamal to mubarak: TN+qOBLs7a8QsivBDZU99EbibJl2hVvYyfU04qCV
+2025-05-22 23:56:29,249 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-22 23:56:29,265 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-22 23:56:30,870 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-22 23:56:33,724 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:56:39,361 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:56:39,361 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-22 23:56:40,585 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-22 23:56:40,587 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-22 23:56:40,587 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-22 23:56:45,264 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-22 23:56:53,646 - secure_chat - INFO - Connected to localhost:4444
+2025-05-22 23:56:53,646 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-22 23:56:54,596 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-22 23:56:54,597 - secure_chat - INFO - [('127.0.0.1', 12347)] logged in as 'mubarak'
+2025-05-22 23:56:54,597 - secure_chat - INFO - [('127.0.0.1', 12347)] authenticated as 'mubarak'
+2025-05-22 23:56:54,605 - secure_chat.key_management - INFO - Shared key derived successfully
+2025-05-22 23:56:54,762 - secure_chat.key_management - INFO - Shared key derived successfully
+2025-05-22 23:57:01,138 - secure_chat - INFO - Relaying E2E private message from mubarak to jamal: G1lZ4M/O3Nylb4NnWZb1tY6Mlpc1ySnAB6ueaomV
+2025-05-22 23:57:15,810 - secure_chat - INFO - Relaying E2E private message from jamal to mubarak: MrGr8CT6L9T6ME2PIo8tpVSMCPAUYBK4t/0FirdQ
+2025-05-23 00:01:18,254 - secure_chat - INFO - Client 'jamal' closing.
+2025-05-23 00:01:18,254 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-23 00:01:31,873 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-23 00:01:31,873 - secure_chat - INFO - Client 'mubarak' disconnected.
