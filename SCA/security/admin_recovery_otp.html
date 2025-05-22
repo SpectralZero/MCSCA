@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin Access Recovery OTP</title>
+</head>
+<body style="margin:0; padding:0; background-color:#1a1a1a; color:#e6e6e6; font-family:Arial, sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
+    <tr>
+      <td align="center">
+        <!-- Wrapper -->
+        <table width="100%" max-width="600" cellpadding="0" cellspacing="0" role="presentation"
+               style="margin:40px auto; background-color:#2a2a2a; border-radius:6px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,0.6);">
+          
+          <!-- Header with inline logo -->
+          <tr>
+            <td align="center" style="padding:20px; background-color:#0a0a0a;">
+              <img
+                src="cid:logo_image"
+                alt="SecureChat™ Logo"
+                style="display:block; width:400px; height:auto; border:0;"
+              />
+            </td>
+          </tr>
+          
+          <!-- Title section -->
+          <tr>
+            <td style="padding:24px 32px 0; text-align:center;">
+              <h1 style="margin:0; font-size:24px; color:#ffffff;">Admin Key Recovery</h1>
+              <p style="margin:8px 0 0; font-size:14px; color:#cccccc;">
+                One-Time Password (OTP)
+              </p>
+            </td>
+          </tr>
+          
+          <!-- Body copy with OTP -->
+          <tr>
+            <td style="padding:24px 32px; font-size:16px; line-height:1.5; color:#dddddd;">
+              <p style="margin:0 0 16px;">
+                You have requested a recovery code because your Admin USB key was lost or you have changed Username and Password. Use the code below to authenticate and set up a new hardware key. This OTP will expire in <strong>{{EXPIRY_MINUTES}} minutes</strong>.
+              </p>
+              
+              <!-- OTP box -->
+              <table cellpadding="0" cellspacing="0" role="presentation" style="margin:0 auto 24px; background-color:#333333; border-radius:4px;">
+                <tr>
+                  <td align="center" style="padding:16px 0; font-family:'Courier New', monospace; font-size:28px; letter-spacing:6px; color:#00ff99;">
+                    {{OTP_CODE}}
+                  </td>
+                </tr>
+              </table>
+              
+              <p style="margin:0 0 16px;">
+                <strong>Important:</strong> If you did <em>not</em> initiate this request, contact your Security Operations Center immediately.
+              </p>
+              <p style="margin:0;">
+                Stay secure,<br>
+                The <strong>SecureChat Security Team</strong>
+              </p>
+            </td>
+          </tr>
+          
+          <!-- Footer -->
+          <tr>
+            <td style="padding:16px 32px 24px; font-size:12px; color:#777777; text-align:center; background-color:#1a1a1a;">
+              <p style="margin:0;">&copy; {{CURRENT_YEAR}} SecureChat Inc. All rights reserved.</p>
+              <p style="margin:4px 0 0;">132 Security , Amman, Jordan</p>
+            </td>
+          </tr>
+          
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

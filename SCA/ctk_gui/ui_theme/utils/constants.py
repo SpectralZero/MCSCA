@@ -1,0 +1,6 @@
+BG_MAIN = r"C:\Users\RTX\Desktop\python course project\assets\bg-main.jpg"
+BG_BRANCH = r"C:\Users\RTX\Desktop\python course project\assets\bg-branch.jpg"
+BG_DEFAULT = r"C:\Users\RTX\Desktop\python course project\assets\bg.jpg"
+BG_WHITE = r"C:\Users\RTX\Desktop\ss\ctk_gui\assets\bg_light.jpg"
+BG_DARK = r"C:\Users\RTX\Desktop\ss\ctk_gui\assets\bg_dark.jpg"
+BG_WAREHOUSE = r"C:\Users\RTX\Desktop\python course project\assets\bg-warehouse.jpg"
