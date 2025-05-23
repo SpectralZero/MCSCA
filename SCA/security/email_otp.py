@@ -7,7 +7,7 @@ import getpass
 import smtplib
 import secrets
 import datetime
-from email.mime.multipart import MIMEMultipart
+from email.mime.multipart import MIMEMultipart # allows images + HTML to be bundled
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 from dotenv import load_dotenv
@@ -25,7 +25,7 @@ _otp_store = {}  # Maps email -> {"otp": str, "expires_at": datetime}
 EMAIL_USER = os.getenv('EMAIL_USER')
 EMAIL_PASS = os.getenv('EMAIL_PASS')
 SMTP_SERVER = 'smtp.gmail.com'
-SMTP_PORT = 587
+SMTP_PORT = 587 # Tls port to encrypt the communication with gmail server
 
 # Security alert settings (legacy)
 MAX_ATTEMPTS = 5
@@ -78,7 +78,7 @@ def send_otp_email(to_email: str) -> None:
     """Generate an OTP, store it, and email it to the user."""
     otp = generate_otp()
     expires = datetime.datetime.utcnow() + datetime.timedelta(seconds=OTP_VALIDITY_SECONDS)
-    _otp_store[to_email] = {'otp': otp, 'expires_at': expires}
+    _otp_store[to_email] = {'otp': otp, 'expires_at': expires} # Store OTP and expiry time
 
     # Load HTML template
     with open('security/admin_recovery_otp.html', 'r') as f:

@@ -46,7 +46,7 @@ class ShredError(RuntimeError):
 # ────────────────────────────────────────────────────────────────────────────────
 # Helpers
 # ────────────────────────────────────────────────────────────────────────────────
-_BUFFER = 1 << 16  # 64 KiB
+_BUFFER = 1 << 16  # size of each write chunk (64 KiB).
 
 
 def _secure_rename(path: Path) -> Path:
@@ -58,9 +58,12 @@ def _secure_rename(path: Path) -> Path:
 
 
 def _looks_like_ssd(path: Path) -> bool:
-    """Best-effort heuristic to tell if *path* lives on a non-rotational device."""
+    """Best-effort heuristic to tell if *path* lives on a non-rotational device.
+     On many SSDs, overwriting blocks at the filesystem level doesn’t guarantee the old data is gone (wear leveling, overprovisioning).
+    """
     try:
         if platform.system() == "Windows":
+            import ctypes
             import ctypes.wintypes as wt
 
             kernel32 = ctypes.windll.kernel32  # type: ignore
@@ -113,7 +116,7 @@ def _overwrite(
     progress: Optional[Callable[[int, int], None]] = None,
 ) -> None:
     size = file.stat().st_size
-    with file.open("r+b", buffering=0) as fh:
+    with file.open("r+b", buffering=0) as fh: #unbuffered mode, so writes go directly to disk.
         for p in range(1, passes + 1):
             fh.seek(0)
             written = 0
@@ -121,14 +124,20 @@ def _overwrite(
             while written < size:
                 chunk = min(bufsize, size - written)
                 data = os.urandom(chunk) if p == passes else pattern_byte * chunk
-                fh.write(data)
+                fh.write(data)# Write a chunk of garbage data (pattern or random) to the file.
                 written += chunk
             fh.flush()
             os.fsync(fh.fileno())
             if progress:
                 progress(p, passes)
 
+    """
+            flush(): ensures Python flushes internal buffers.
 
+             fsync(): ensures OS-level buffers are flushed to physical disk.
+
+            Without fsync(), data might stay in memory. A crash or power loss could leave the original data still on disk.
+    """
 # ────────────────────────────────────────────────────────────────────────────────
 # Public API
 # ────────────────────────────────────────────────────────────────────────────────

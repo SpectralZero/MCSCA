@@ -3675,3 +3675,57 @@ uthenticated as 'jamal'
 2025-05-23 00:01:18,254 - secure_chat - INFO - Client 'jamal' disconnected.
 2025-05-23 00:01:31,873 - secure_chat - INFO - Client 'mubarak' closing.
 2025-05-23 00:01:31,873 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-23 17:13:40,489 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-23 17:13:43,335 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-23 17:13:50,056 - secure_chat - INFO - Connected to localhost:4444
+2025-05-23 17:13:50,056 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-23 17:13:51,305 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-23 17:13:51,306 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-23 17:13:51,306 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-23 17:14:24,256 - secure_chat - INFO - Client 'jamal' closing.
+2025-05-23 17:14:24,257 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-23 18:37:07,239 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-23 18:37:09,647 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-23 18:37:16,026 - secure_chat - INFO - Connected to localhost:4444
+2025-05-23 18:37:16,026 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-23 18:37:17,376 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-23 18:37:17,376 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-23 18:37:17,376 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-23 18:38:53,596 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-23 18:38:56,017 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-23 18:38:57,976 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-23 18:39:05,423 - secure_chat - INFO - Connected to localhost:4444
+2025-05-23 18:39:05,423 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-23 18:39:06,648 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-23 18:39:06,649 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-23 18:39:06,649 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-23 18:39:12,076 - secure_chat - INFO - Client 'jamal' closing.
+2025-05-23 18:39:12,077 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-23 18:41:10,323 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-23 18:41:12,563 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-23 18:41:17,931 - secure_chat - INFO - Connected to localhost:4444
+2025-05-23 18:41:17,932 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-23 18:41:19,274 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-23 18:41:19,274 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-23 18:41:19,275 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-23 18:41:28,404 - secure_chat - INFO - Client 'jamal' closing.
+2025-05-23 18:41:28,405 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-23 18:57:50,512 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-23 18:58:15,040 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-23 19:00:54,550 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-23 19:00:56,245 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-23 19:01:01,489 - secure_chat - INFO - Connected to localhost:4444
+2025-05-23 19:01:01,490 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-23 19:01:02,717 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-23 19:01:02,718 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-23 19:01:02,718 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-23 19:04:51,214 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-23 19:04:57,736 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-23 19:05:00,105 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-23 19:05:05,766 - secure_chat - INFO - Connected to localhost:4444
+2025-05-23 19:05:05,766 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-23 19:05:06,746 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-23 19:05:06,747 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-23 19:05:06,747 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-23 19:05:18,726 - secure_chat - INFO - Client 'jamal' closing.
+2025-05-23 19:05:18,726 - secure_chat - INFO - Client 'jamal' disconnected.

@@ -77,6 +77,12 @@ class FileTransferManager:
             """
             Read the file in CHUNK_SIZE slices, encrypt each chunk as a JSON string,
             and send it over the existing TLS socket.  On error, send a FILE_CANCEL.
+            Base64-encodes chunk → JSON → encrypt → send.
+            Each chunk is:
+
+            individually encrypted
+
+            encoded safely for JSON and base64
             """
             key = self.chat_client.get_shared_key(recipient)
             try:
@@ -274,6 +280,9 @@ class FileTransferManager:
         self._store_chunk(fid, chunk)
 
     def _store_chunk(self, fid, chunk):
+        """ Store a chunk of data in the incoming file entry.
+            If the file is complete, notify the GUI.
+        """
         entry = self.incoming[fid]
         idx = chunk["index"]
         data = base64.b64decode(chunk["data"].encode())
