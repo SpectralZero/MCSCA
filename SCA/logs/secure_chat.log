@@ -3729,3 +3729,105 @@ uthenticated as 'jamal'
 2025-05-23 19:05:06,747 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
 2025-05-23 19:05:18,726 - secure_chat - INFO - Client 'jamal' closing.
 2025-05-23 19:05:18,726 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-23 20:23:29,532 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-23 20:23:31,740 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-23 20:23:37,926 - secure_chat - INFO - Connected to localhost:4444
+2025-05-23 20:23:37,926 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-23 20:23:37,962 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-23 20:23:48,144 - secure_chat - INFO - Connected to localhost:4444
+2025-05-23 20:23:48,144 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-23 20:23:49,306 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-23 20:23:49,306 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-23 20:23:49,306 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-23 20:26:44,028 - secure_chat - INFO - Client 'jamal' closing.
+2025-05-23 20:26:44,030 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-26 14:31:15,177 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-26 14:31:33,120 - secure_chat - WARNING - TLS handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2025-05-26 14:38:23,565 - secure_chat - WARNING - TLS handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2025-05-26 14:51:27,552 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-26 14:51:28,539 - secure_chat - WARNING - TLS handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2025-05-26 14:57:37,397 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-26 14:57:38,395 - secure_chat - WARNING - TLS handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2025-05-26 14:59:00,890 - secure_chat - WARNING - TLS handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2025-05-26 15:01:33,230 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-26 15:01:34,891 - secure_chat - WARNING - TLS handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2025-05-26 15:04:19,853 - secure_chat - WARNING - TLS handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2025-05-26 15:04:38,040 - secure_chat - WARNING - TLS handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2025-05-26 16:11:30,356 - secure_chat - WARNING - TLS handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2025-05-26 19:14:02,741 - secure_chat - WARNING - TLS handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2025-05-26 20:20:02,707 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-26 20:20:05,169 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-26 20:20:11,050 - secure_chat - INFO - Connected to localhost:4444
+2025-05-26 20:20:11,050 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-26 20:20:11,090 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-26 20:20:21,166 - secure_chat - INFO - Connected to localhost:4444
+2025-05-26 20:20:21,166 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-26 20:20:22,330 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-26 20:20:22,332 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-26 20:20:22,333 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-26 20:20:28,003 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-26 20:20:36,338 - secure_chat - INFO - Connected to localhost:4444
+2025-05-26 20:20:36,338 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-26 20:20:37,646 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-26 20:20:37,646 - secure_chat - INFO - [('127.0.0.1', 12347)] logged in as 'mubarak'
+2025-05-26 20:20:37,648 - secure_chat - INFO - [('127.0.0.1', 12347)] authenticated as 'mubarak'
+2025-05-26 20:20:37,656 - secure_chat.key_management - INFO - Shared key derived successfully
+2025-05-26 20:20:37,827 - secure_chat.key_management - INFO - Shared key derived successfully
+2025-05-26 20:20:45,332 - secure_chat - INFO - Relaying E2E private message from mubarak to jamal: HjybrpuUKXDWcaCQnyUKWqfL7dfODPGawLn7YGBl
+2025-05-26 20:21:22,530 - secure_chat - INFO - Client 'mubarak' closing.
+2025-05-26 20:21:22,531 - secure_chat - INFO - Client 'mubarak' disconnected.
+2025-05-26 20:21:23,312 - secure_chat - INFO - Client 'jamal' closing.
+2025-05-26 20:21:23,313 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-26 21:05:12,255 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-26 21:06:38,614 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-26 21:07:15,678 - secure_chat - INFO - Connected to localhost:4444
+2025-05-26 21:07:15,678 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-26 21:07:16,904 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-26 21:07:16,905 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-26 21:07:16,905 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-26 21:13:37,421 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-26 21:13:47,558 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-26 21:13:49,855 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-26 21:13:55,218 - secure_chat - INFO - Connected to localhost:4444
+2025-05-26 21:13:55,218 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-26 21:13:56,225 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-26 21:13:56,225 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-26 21:13:56,225 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-26 21:16:33,296 - secure_chat - INFO - Client 'jamal' closing.
+2025-05-26 21:16:33,298 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-26 21:17:29,171 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-26 21:17:31,306 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-26 21:17:36,536 - secure_chat - INFO - Connected to localhost:4444
+2025-05-26 21:17:36,536 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-26 21:17:37,568 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-26 21:17:37,570 - secure_chat - INFO - [('127.0.0.1', 12347)] logged in as 'jamal'
+2025-05-26 21:17:37,570 - secure_chat - INFO - [('127.0.0.1', 12347)] authenticated as 'jamal'
+2025-05-26 21:17:56,099 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-26 21:22:39,735 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-26 21:22:41,994 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-26 21:22:47,502 - secure_chat - INFO - Connected to localhost:4444
+2025-05-26 21:22:47,502 - secure_chat - INFO - Connection from ('127.0.0.1', 12347)
+2025-05-26 21:22:48,867 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-26 21:22:48,868 - secure_chat - INFO - [('127.0.0.1', 12347)] logged in as 'jamal'
+2025-05-26 21:22:48,868 - secure_chat - INFO - [('127.0.0.1', 12347)] authenticated as 'jamal'
+2025-05-26 21:25:18,269 - secure_chat - INFO - Client 'jamal' closing.
+2025-05-26 21:25:18,270 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-26 21:28:36,800 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-26 21:28:38,463 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-26 21:28:43,632 - secure_chat - INFO - Connected to localhost:4444
+2025-05-26 21:28:43,632 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-26 21:28:45,258 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-26 21:28:45,259 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-26 21:28:45,259 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-26 21:29:05,089 - secure_chat - INFO - Client 'jamal' closing.
+2025-05-26 21:29:05,090 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-26 21:30:10,530 - secure_chat - INFO - Secure-Chat Server listening on 0.0.0.0:4444
+2025-05-26 21:30:12,749 - secure_chat.key_management - INFO - ECDH key pair generated successfully
+2025-05-26 21:30:22,132 - secure_chat - INFO - Connected to localhost:4444
+2025-05-26 21:30:22,132 - secure_chat - INFO - Connection from ('127.0.0.1', 12346)
+2025-05-26 21:30:23,419 - secure_chat - INFO - Authenticated (USB OK)
+2025-05-26 21:30:23,420 - secure_chat - INFO - [('127.0.0.1', 12346)] logged in as 'jamal'
+2025-05-26 21:30:23,420 - secure_chat - INFO - [('127.0.0.1', 12346)] authenticated as 'jamal'
+2025-05-26 21:34:23,476 - secure_chat - INFO - Client 'jamal' closing.
+2025-05-26 21:34:23,476 - secure_chat - INFO - Client 'jamal' disconnected.
+2025-05-26 21:34:34,975 - secure_chat - WARNING - TLS handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)

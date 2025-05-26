@@ -43,6 +43,7 @@ from security.email_otp import send_otp_email, verify_otp
 from ui.otp_ui import OTPWindow 
 from utils.db_setup import _verify_password, DB_PATH
 from utils.usb_auth  import admin_usb_authentication as usb_authenticate
+from ctk_gui.widgets.full_log_tab import FullLogTab  # Import the LogTab viewer
 
 # ---------- CLI helpers (from manage_users.py) ----------
 manage = importlib.import_module("manage_users")
@@ -50,6 +51,8 @@ add_user_cli    = manage.add
 update_user_cli = manage.update
 delete_user_cli = manage.delete
 program_usb_cli = manage.program_usb
+
+
 
 
 ctk.deactivate_automatic_dpi_awareness()
@@ -177,6 +180,8 @@ class AdminApp(ctk.CTk):
         left  = ctk.CTkFrame(self, width=220); left.pack(side="left", fill="y", padx=5, pady=5)
         right = ctk.CTkFrame(self);            right.pack(side="right", expand=True, fill="both", padx=5, pady=5)
 
+
+        
         self.user_list = ctk.CTkTextbox(left, width=200)
         self.user_list.pack(fill="both", expand=True, padx=4, pady=4)
         self._refresh_users()
@@ -192,6 +197,8 @@ class AdminApp(ctk.CTk):
         btn("Program / Re-key USB",  self._rekey)
         btn("View Locked Users",     self._view_locked)
         btn("Unlock User",           self._unlock)
+        btn("View Logs",             self.view_logs)  # New button for logs
+        btn ("Exit", self._on_close)
 
     # ----- helpers -----
     def _refresh_users(self):  # updating a user interface element with a list of usernames retrieved from a database. 
@@ -280,6 +287,21 @@ class AdminApp(ctk.CTk):
             CTkMessagebox(title="Unlocked", message=f"User '{u}' unlocked.")
         else:
             CTkMessagebox(title="Error", message=f"User '{u}' not found or not locked.")
+
+    def view_logs(self):
+        """Open the full-file log viewer in a new window."""
+        win = ctk.CTkToplevel(self)
+        win.title("Secure-Chat Logs")
+        win.geometry("800x600")
+
+        # Make it pop above the admin window:
+        win.transient(self)         # treat as child of AdminApp
+        win.lift()                  # raise above all siblings
+        win.focus_force()           # grab keyboard focus
+        # optional: win.attributes("-topmost", True)  # for guaranteed-on-top
+
+        full_tab = FullLogTab(win)
+        full_tab.pack(expand=True, fill="both")        
 
     def _on_close(self):
         # If you ever need to do cleanup, do it here…
